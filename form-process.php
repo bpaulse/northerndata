@@ -60,6 +60,7 @@ $count = 0;
 
 foreach ($info["to"] as $toRecipient){
 	if ( SendGridMail($toRecipient, $info) ) {
+		/*
 		$id = $function->AddFormInfo(
 			array(
 				'name' => $name,
@@ -69,12 +70,13 @@ foreach ($info["to"] as $toRecipient){
 				'comment' => $message
 			)
 		);
+		*/
 
 		// echo "DB-ID: " . $id . "\n";
 
-		if ( $id > 0 ){
-			$count++;
-		}
+		// if ( $id > 0 ){
+		$count++;
+		// }
 		
 	} 
 }

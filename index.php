@@ -69,14 +69,17 @@ function isMobileDevice() {
 				
 				<div class="block-container-desc">
 					<div class="vertical-text">About Us</div>
+					Northern Data founded in 2014 as a data management consultancy on the principle that every organisation deserves the best in managing their data.
+					<br /><br />
+					We assist organizations of all sizes to effectively manage, distribute and secure their data with key focus on providing value add, knowledge management and timeous insights into their business. Northern Data is 100% Black Owned and LEVEL 1 B-BBEE. Northern Data is a Microsoft Gold Partner for Data Analytics.
 					<?php
 
-						$PageName = 'AboutUs';
-						echo "<br >";
-						foreach ( $function->getPageInfo($PageName) as $content ){
-							echo $content['ContentText'];
-							echo "<br /><br />";
-						}
+						// $PageName = 'AboutUs';
+						// echo "<br >";
+						// foreach ( $function->getPageInfo($PageName) as $content ){
+						// 	echo $content['ContentText'];
+						// 	echo "<br /><br />";
+						// }
 					?>
 				</div>
 			</div>
@@ -133,13 +136,14 @@ function isMobileDevice() {
 								<div style="height: 100px;">
 									<div style="float: left; font-size: 10pt; text-align: justify;">
 										<img src="images/image004.jpg" /><br />
+										We assist organizations of all sizes to effectively manage, distribute and secure their data with key focus on providing value add, knowledge management and timeous insights into their business. Northern Data is 100% Black Owned and LEVEL 1 B-BBEE. Northern Data is a Microsoft Gold Partner for Data Analytics.
 										<?php
-										$PageName = 'ContactUs';
-										echo "<br >";
-										foreach ( $function->getPageInfo($PageName) as $content ){
-											echo $content['ContentText'];
-											echo "<br /><br />";
-										}
+											// $PageName = 'ContactUs';
+											// echo "<br >";
+											// foreach ( $function->getPageInfo($PageName) as $content ){
+											// 	echo $content['ContentText'];
+											// 	echo "<br /><br />";
+											// }
 										?>
 									</div>
 								</div>
@@ -183,9 +187,7 @@ function isMobileDevice() {
 				$('.visit').click(function(e) {
 					e.preventDefault();
 					$("#formModal").modal();
-				});
-
-
+				});S
 
 			});
 
