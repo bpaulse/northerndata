@@ -1,7 +1,7 @@
 <?php
 // include('mydb.php');
-define( "MACHINENAME", "localpc" );
-// define( "MACHINENAME", "web" );
+// define( "MACHINENAME", "localpc" );
+define( "MACHINENAME", "web" );
 
 class mydbset {
 
@@ -9,7 +9,7 @@ class mydbset {
 
 	private $dbsetting = array (
 		'web' => array(
-			'localhost', 'bevanp0', 'GzvwpJRC5GBgLTd', 'bevanp0_qio'
+			'northerndataweb-mysqldbserver.mysql.database.azure.com', 'mysqldbuser', 'Storm3r$78', 'mysqldatabase55866'
 		),
 		'localpc' => array(
 			'localhost', 'root', '', 'northerndata'
