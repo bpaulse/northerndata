@@ -88,6 +88,9 @@ $function::$dbId = 'local';
 <!-- <div style="width: 100%; border: 0px solid black;">Contact Us Form</div> -->
 <!-- Modal Body -->
 <table width="100%" height="100px">
+	<tr align="center">
+		<td><img src="images/logo.png" width="100px" /></td>
+	</tr>
 	<tr><td>
 <div style="width: 100%; display: block; border: 0px solid black; margin-top: 20px;">
 	<p>Client Feedback Form</p>

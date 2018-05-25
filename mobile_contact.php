@@ -84,17 +84,20 @@ $function::$dbId = 'local';
 </nav>
 </body>
 <table width="100%" height="100px">
+	<tr align="center">
+		<td colspan="3"><img src="images/logo.png" width="100px" /></td>
+	</tr>
 	<tr><td><img src="images/image004.jpg" /></td>
 	<td>&nbsp;&nbsp;&nbsp;</td>
 	<td style="alignment: justify;">
 		We assist organizations of all sizes to effectively manage, distribute and secure their data with key focus on providing value add, knowledge management and timeous insights into their business. Northern Data is 100% Black Owned and LEVEL 1 B-BBEE. Northern Data is a Microsoft Gold Partner for Data Analytics.
 		<?php
-		$PageName = 'ContactUs';
-		echo "<br >";
-		foreach ( $function->getPageInfo($PageName) as $content ){
-			echo $content['ContentText'];
-			echo "<br /><br />";
-		}
+		// $PageName = 'ContactUs';
+		// echo "<br >";
+		// foreach ( $function->getPageInfo($PageName) as $content ){
+		// 	echo $content['ContentText'];
+		// 	echo "<br /><br />";
+		// }
 		?>
 	</td>
 	</tr>

@@ -52,6 +52,9 @@ $function::$dbId = 'local';
 </nav>
 <table width="100%">
 	<tr align="center">
+		<td colspan="2"><img src="images/logo.png" width="100px" /></td>
+	</tr>
+	<tr align="center">
 		<td>
 			<br />
 			Northern Data founded in 2014 as a data management consultancy on the principle that every organisation deserves the best in managing their data.

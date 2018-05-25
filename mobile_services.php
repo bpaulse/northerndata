@@ -83,13 +83,16 @@ $function::$dbId = 'local';
   </div><!-- /.container-fluid -->
 </nav>
 <table width="100%">
-		<tr align="center">
-			<td colspan="2"><h4>SERVICES</h4></td>
-		</tr>
-		<tr align="center">
-			<td>
-				Database Administration<br />
-				Azure<br />Data Strategy<br />Data Analytics<br />Business Continuity Services<br />Information and Knowledge Management</td>
-		</tr>
+	<tr align="center">
+		<td colspan="2"><img src="images/logo.png" width="100px" /></td>
+	</tr>
+	<tr align="center">
+		<td colspan="2"><h4>SERVICES</h4></td>
+	</tr>
+	<tr align="center">
+		<td colspan="2">
+			Database Administration<br />
+			Azure<br />Data Strategy<br />Data Analytics<br />Business Continuity Services<br />Information and Knowledge Management</td>
+	</tr>
 	<table>
 </body>
