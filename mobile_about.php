@@ -45,7 +45,7 @@ $function::$dbId = 'local';
 				<li class="active"><a href="#">About Us</a></li>
 				<li><a href="mobile_services.php">Services</a></li>
 				<li><a href="mobile_contact.php">Contact Us</a></li>
-				<li><a href="mobile_form.php">Client Feedback</a></li>
+				<!-- <li><a href="mobile_form.php">Client Feedback</a></li> -->
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container-fluid -->

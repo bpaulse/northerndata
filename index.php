@@ -134,7 +134,7 @@ function isMobileDevice() {
 						<div class="row">
 							<div class="col-sm-6">
 								<div style="height: 100px;">
-									<div style="float: left; font-size: 10pt; text-align: justify;">
+									<div style="float: left; font-size: 12pt; text-align: justify; font-family: Arial, Helvetica, sans-serif;">
 										<img src="images/image004.jpg" /><br />
 										We assist organizations of all sizes to effectively manage, distribute and secure their data with key focus on providing value add, knowledge management and timeous insights into their business. Northern Data is 100% Black Owned and LEVEL 1 B-BBEE. Northern Data is a Microsoft Gold Partner for Data Analytics.
 										<?php
@@ -164,7 +164,7 @@ function isMobileDevice() {
 										+27 87 150 0204
 									</div>
 									<div class="visit">
-										<img id="feedback-img" src="images/feedback-icon.png" data-toggle="modal" data-target="#modalForm" />
+										<!-- <img id="feedback-img" src="images/feedback-icon.png" data-toggle="modal" data-target="#modalForm" /> -->
 									</div>
 								</div>
 							</div>

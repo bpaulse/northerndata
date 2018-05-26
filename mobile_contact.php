@@ -67,7 +67,7 @@ $function::$dbId = 'local';
         <li><a href="mobile_about.php">About Us</a></li>
         <li><a href="mobile_services.php">Services</a></li>
 		<li class="active"><a href="mobile_contact.php">Contact Us</a></li>
-		<li><a href="mobile_form.php">Client Feedback</a></li>
+		<!-- <li><a href="mobile_form.php">Client Feedback</a></li> -->
         <!-- <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu">
